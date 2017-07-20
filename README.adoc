@@ -135,6 +135,14 @@ For all other versions of Ruby, you can simply install the Asciidoctor PDF gem.
 It will transitively install all required dependencies.
 ====
 
+[WARNING]
+====
+In order to use this version please add the following to your Gemfile:
+
+  gem 'prawn-table', github:'prawnpdf/prawn-table'
+
+====
+
 === System Encoding
 
 Asciidoctor assumes you're using UTF-8 encoding.
